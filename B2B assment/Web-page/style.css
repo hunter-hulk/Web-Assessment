@@ -12,6 +12,7 @@ body {
 nav {
     margin-right: auto;
     display: flex;
+    column-width: auto;
 }
 
 nav a {
@@ -51,7 +52,7 @@ header {
 }
 
 .link {
-    padding: 50px;
+    margin: 20px;
 }
 
 .link a {
@@ -59,16 +60,30 @@ header {
 }
 
 aside {
-    padding: 30px;
+    margin: 30px;
     margin-left: auto;
 }
 
+.page p {
+    padding: 5px;
+    color: #00b496;
+    font-size: larger;
+}
+
 p {
-    padding: 20px;
-    color: rgb(21, 255, 0);
+    padding: 5px;
+    color: #15ff00;
     font-size: larger;
 }
 
 ul {
     padding: 20px;
+}
+
+.page {
+    background-color: white;
+    border-radius: 15px;
+    margin: 2%;
+    border: black;
+    border-width: 4px;
 }
